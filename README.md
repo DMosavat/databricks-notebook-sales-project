@@ -62,6 +62,13 @@ This project was built to practice:
 
 ---
 
+## Notebook Version
+
+This project includes both:
+
+- `.py` version (Databricks-compatible)
+- `.ipynb` version (for interactive exploration)
+
 ## 📁 Project Structure
 
 ```text
@@ -73,6 +80,7 @@ databricks-notebook-sales-project/
 │   └── products.csv
 ├── notebooks/
 │   └── sales_etl_notebook.py
+│   └── sales_etl_notebook.ipynb
 ├── README.md
 └── requirements.txt
 ```
