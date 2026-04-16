@@ -100,7 +100,7 @@ databricks-notebook-sales-project/
 ## ▶️ Quick Start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/databricks-notebook-sales-project.git
+git clone https://github.com/DMosavat/databricks-notebook-sales-project.git
 cd databricks-notebook-sales-project
 
 python3 -m venv venv
