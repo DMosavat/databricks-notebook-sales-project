@@ -62,6 +62,22 @@ This project was built to practice:
 
 ---
 
+## Databricks Notebook Version
+
+A Databricks-ready notebook version is included for execution in Azure Databricks.
+
+### Requirements
+
+- A mounted Azure Data Lake path such as `/mnt/raw/`
+- Write access to an output path such as `/mnt/gold/`
+
+### Example mounted paths
+
+```text
+/mnt/raw/customers.csv
+/mnt/gold/sales_per_customer_delta
+```
+
 ## Notebook Version
 
 This project includes both:
@@ -81,6 +97,7 @@ databricks-notebook-sales-project/
 ├── notebooks/
 │   └── sales_etl_notebook.py
 │   └── sales_etl_notebook.ipynb
+│   └── sales_etl_notebook_databricks.ipynb
 ├── README.md
 └── requirements.txt
 ```
